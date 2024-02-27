@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/macroeconomicScreen"
+        android:title="Macroeconomic"
+        android:icon="@drawable/ic_macro"
+        />
+    <item android:id="@+id/agriculturalScreen"
+        android:title="Agricultural"
+        android:icon="@drawable/ic_agriculture"
+        />
+    <item android:id="@+id/debtScreen"
+        android:title="Debt"
+        android:icon="@drawable/ic_money"
+        />
+</menu>

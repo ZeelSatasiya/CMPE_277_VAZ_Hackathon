@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<com.google.android.material.card.MaterialCardView android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:layout_marginVertical="16dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="28dp"
+    android:layout_marginHorizontal="16dp"
+    app:strokeWidth="0dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="24dp"
+        android:text="Macroeconomic Researcher Food Security Time Series Dashboard"
+        android:textAppearance="@style/TextAppearance.Material.Headline6" />
+</com.google.android.material.card.MaterialCardView>
+</layout>

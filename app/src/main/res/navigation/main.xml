@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/loginScreen"
+    android:id="@+id/main">
+
+
+
+    <fragment
+        android:id="@+id/loginScreen"
+        android:label="LoginFragment"
+        android:name="com.example.macroeconomicresearch.fragments.LoginFragment"/>
+
+
+    <action app:destination="@id/mainScreen"
+        app:popUpTo="@+id/loginScreen"
+        app:popUpToInclusive="true"
+        android:id="@+id/action_login_to_main_screen" />
+
+    <fragment
+        android:id="@+id/mainScreen"
+        android:label="MainFragment"
+        android:name="com.example.macroeconomicresearch.fragments.MainFragment"/>
+
+</navigation>

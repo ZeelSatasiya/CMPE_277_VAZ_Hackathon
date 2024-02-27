@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data class="EnterTextDialogBinding"/>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:paddingStart="?dialogPreferredPadding"
+        android:paddingEnd="?dialogPreferredPadding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/dialog_title"
+            android:text="Enter a note"
+            style="@style/MD_Dialog_Title_Text"
+            android:paddingTop="?dialogPreferredPadding"
+            android:paddingBottom="?dialogPreferredPadding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_title"
+            android:hint="Note"
+            android:layout_marginBottom="8dp"
+            style="@style/EditTagsTextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_title"
+                style="@style/Widget.Macro.EditText"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.example.macroeconomicresearch.view.DialogButtonsLayout
+            android:positiveButtonText="Save"
+            android:negativeButtonText="@android:string/cancel"
+            android:layout_width="match_parent"
+            android:id="@+id/buttons"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</layout>
